@@ -7,7 +7,7 @@ class Artist
   extend Memorable
   extend Findable
 
-  @@all = []
+  @@artists = []
 
   def initialize
     @@artists << self
