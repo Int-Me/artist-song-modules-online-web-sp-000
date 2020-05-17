@@ -7,7 +7,7 @@ class Song
   extend Memorable
   extend Findable
 
-  @@all = []
+  @@songs = []
 
   def initialize
     @@songs << self
