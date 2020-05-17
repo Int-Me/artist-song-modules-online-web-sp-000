@@ -38,5 +38,5 @@ class Artist
     songs.each { |song| add_song(song) }
   end
 
-  
+
 end
